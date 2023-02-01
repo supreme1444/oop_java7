@@ -1,5 +1,5 @@
-пакетная  работа . task_one_ocp_srp ;
+package job.task_one_ocp_srp;
 
-открытый  интерфейс  InterfaceFingerprint {
-    публичный  недействительный  отпечаток пальца ();
+public interface InterfaceFingerprint {
+    public void fingerprint();
 }
