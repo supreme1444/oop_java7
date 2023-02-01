@@ -1,6 +1,6 @@
-пакетная  работа . task_one_ocp_srp ;
+package job.task_one_ocp_srp;
 
-открытый  интерфейс  InterfacePin {
-    публичный  недействительный  режим ();
-    общедоступный  недействительный  контакт ();   
+public interface InterfacePin {
+    public void mode();
+    public void pin();   
 }
